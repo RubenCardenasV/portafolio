@@ -1,0 +1,37 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer {
+    color: #fff;
+}
+
+.card:hover {
+    transition: 300ms all;
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skill:hover {
+    transition: 300ms all;
+    transform: scale(1.1);
+}
+
+.card {
+    transition: 300ms all;
+}
+
+.skill {
+    transition: 300ms all;
+}
